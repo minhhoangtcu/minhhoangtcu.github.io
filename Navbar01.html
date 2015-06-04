@@ -12,23 +12,39 @@
     </style>
 </head>
 <body>
-</div>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="Navbar01.html" class="navbar-brand">                 	
-                	<img src="./image/logo.png">
-                </a>
-                <ul class="nav navbar-nav" role="menu">
-                	<li>
-                		<a href="Navbar01.html" class="active">Current Page</a>
-                		<span class="sr-only">current</span>
-                	</li>
-                	<li><a href="AlbumDetails.html">Album</li>                
-                </ul>
-            </div>
-        </div>
-    </nav>
+   <nav class="navbar navbar-default navbar-fixed-top">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <a href="Navbar01.html" class="navbar-brand">
+         	<img src="image/logo.png">
+         </a>
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-navigation">
+           <span class="sr-only">Navigation toggle</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <div class="collapse navbar-collapse" id="hamburger-navigation">
+         <div class="navbar-text navbar-right">
+           <a class="navbar-link" href="URL here">
+             Follow us!
+           </a>
+         </div>
+         <ul class="nav navbar-nav" role="menu">
+           <li><a href="#" class="active">Current Page</a><span class="sr-only">current</span></li>
+           <li><a href="#">Link</a></li>
+           <li class="dropdown">
+             <a class="dropdown-toggle" role="button" data-toggle="dropdown">Dropdown<span class="caret" /></a>
+             <ul class="dropdown-menu">
+               <li><a href="#">Option one</a></li>
+               <li><a href="#">Option two</a></li>
+             </ul>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
 
     <script src="./scripts/jquery-2.1.4.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
