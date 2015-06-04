@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tab Example</title>
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div role="tabpanel" class="col-md-4">
+		    <!-- Nav tabs -->
+		    <ul class="nav nav-tabs" role="tablist">
+		        <li role="presentation" class="active">
+		            <a href="#first" aria-controls="home" role="tab" data-toggle="tab">First</a>
+		        </li>
+		        <li role="presentation">
+		            <a href="#second" aria-controls="tab" role="tab" data-toggle="tab">Second</a>
+		        </li>
+		        <li role="presentation">
+		            <a href="#third" aria-controls="tab" role="tab" data-toggle="tab">Second</a>
+		        </li>
+		    </ul>
+		
+		    <!-- Tab panes -->
+		    <div class="tab-content">
+		        <div role="tabpanel" class="tab-pane active fade in" id="first">
+		        	<p>You've got your phenomenon on one hand. Concrete and knowable. On the other hand you've got the incomprehensible. You call it God, but to me, God or no, it remains just that, the unknowable.</p>	
+		        	<strong>Robin Green and Mitchell Burgess</strong><i>, Northern Exposure, A Wing and a Prayer, 1994</i>
+		        </div>
+		        <div role="tabpanel" class="tab-pane fade" id="second">
+		        	<p>Make the most of yourself, for that is all there is of you.</p>
+		        	<strong>Ralph Waldo Emerson (1803 - 1882)</strong>
+		        </div>
+		        <div role="tabpanel" class="tab-pane fade" id="third">
+		        	<p>A rumor without a leg to stand on will get around some other way.</p>
+		        	<strong>John Tudor</strong>
+		        </div>
+		    </div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+</body>
+</html>
