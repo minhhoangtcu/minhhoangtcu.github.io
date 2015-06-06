@@ -2,9 +2,14 @@
 <html>
 <head>
     <title>Minh Hoang's Resume</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <link href="styles/bootstrap-simple.min.css" rel="stylesheet" />
     <link href="styles/navbar.css" rel="stylesheet" />
+    <style>
+        #resume { font-size: 1.2em; }
+        #resume ul li { font-size: 1.1em; }
+        #resume h1 { padding: 15px; }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -34,7 +39,32 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-    
+    <div class="container" id="resume">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                <h1 class="text-center">Education</h1>
+                Texas Christian University, Fort Worth, TX
+                <ul>
+                    <li>Bachelor of Computer Science with a minor in Mathematics, May 2018</li>
+                    <li>GPA: 4.0</li>
+                </ul>
+                Massive Open Online Course
+                <ul>
+                    <li>The Analytics Edge - MITx</li>
+                    <li>Scalable Machine Learning - BerkeleyX</li>
+                </ul>
+
+                <h1 class="text-center">Experience</h1>
+                <strong>Summer 2015: </strong> IT Intern, Hanoi Telecom Corporation
+                <ul>
+                    <li>Analyze data and predict trends on a sample of Vietnamese mobile users using various data mining technique.</li>
+                    <li>Make interactive visualizations with d3.js to report company product sale.</li>
+                    <li>Entry data to company's SQL Server with over millions of accounts</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
 
     <script src="scripts/jquery-2.1.4.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
