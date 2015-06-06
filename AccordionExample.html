@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Accordion Example</title>
-	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+    <title>Accordion Example</title>
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-	<div class="panel-group" id="accordion-sample">
-		<div class="panel panel-default">
-		 <div class="panel-heading">
-		   <h4 class="panel-title">
-		     <a data-toggle="collapse" data-parent="#accordion-sample" href="#accordion-sample-one">
-		       Heading One
-		     </a>
-		   </h4>
-		 </div>
-		 <div id="accordion-sample-one" class="panel-collapse collapse in">
-		   <div class="panel-body">
-		     Sample content
-		   </div>
-		 </div>
-		</div>
-		<div class="panel panel-default">
-		 <div class="panel-heading">
-		   <h4 class="panel-title">
-		     <a data-toggle="collapse" data-parent="#accordion-sample" href="#accordion-sample-two">
-		       Heading Two
-		     </a>
-		   </h4>
-		 </div>
-		<div id="accordion-sample-two" class="panel-collapse collapse">
-		 <div class="panel-body">
-		   Sample content
-		 </div>
-		</div>
-	</div>
-</div>
 
-	<script type="text/javascript" scr="./scripts/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" scr="./scripts/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="panel-group" id="collapse">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-one">
+                            Accordion heading 1
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-one" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-two">
+                            Accordion heading 2
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-two" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Morbi eget libero quis metus consectetur semper.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-three">
+                            Accordion heading 3
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-three" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Suspendisse ullamcorper massa eget eleifend iaculis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 
 </body>
 </html>
