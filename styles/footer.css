@@ -1,9 +1,11 @@
-﻿/* Footer taken from JGoodwillieV http://bootsnipp.com/snippets/featured/spinning-social-icons 
-    With some modification from me
-*/
-/*=========================
+﻿/*=========================
   Icons
  ================= */
+
+/* footer position */
+footer {
+	margin-bottom: 5em;
+}
 
 /* footer social icons */
 ul.social-network {
