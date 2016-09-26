@@ -3,6 +3,7 @@
 title: "Minh"
 title2: "Hoang" # default: ""
 description: "Blog"
+logo: "./image/logo.png"
 keywords: "Minh Hoang, blog, technology, iOS, data mining, machine learning, portfolio, resume"
 url: http://minhhoangtcu.github.io/ # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
