@@ -1,27 +1,123 @@
----
-layout: default
-title: Home
----
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Minh Hoang</title>
+    <meta charset="utf-8" />
+    <link href="styles/bootstrap-simple.min.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-{% include intro.html %}
+    <link href="styles/footer.css" rel="stylesheet" />
+    <link href="styles/navbar.css" rel="stylesheet" />
+    <link href="styles/brief-intro.css" rel="stylesheet" />    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-minh">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <strong>Minh</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-minh">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="resume/Minh Hoang - Resume Fall 2016.pdf">RESUME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./blog/index.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
-<section class="post-list">
-  <div class="container">
-    {% for post in site.posts %}
-      {% unless post.next %}
-        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        {% endif %}
-      {% endunless %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-      </article>
-    {% endfor %}
-  </div>
+    <!-- Hi -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row text-center">
+                <h1>Hi, I am Minh</h1>
+                <h4>A junior, who loves programming</h4>
+            </div>
+        </div>
+    </div>
 
-</section>
+    
+    <div class="container text-center">
+        <!-- Brief Introduction -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3" role="tabpanel">
+                <div class="col-xs-4 col-sm-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-justified" id="nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">
+                                <img class="img-circle" src="image/mobile.png" />                                
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#data" aria-controls="data" role="tab" data-toggle="tab">
+                                <img class="img-circle" src="image/data.jpg" />                                
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#frontend" aria-controls="frontend" role="tab" data-toggle="tab">
+                                <img class="img-circle" src="image/frontend.png" />                                
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+                <div class="col-xs-8 col-sm-12">
+                    <!-- Tab panes -->
+                    <div class="tab-content" id="tabs-collapse">
+                        <div role="tabpanel" class="tab-pane fade in active" id="mobile">
+                            <div class="tab-inner">
+                                <p class="lead">I'm an iOS developer. I have participated in some researches and projects using iOS phones and will have some apps on the Apple Store.</p>
+                            </div>
+                        </div>
+
+                        <div role="tabpanel" class="tab-pane fade" id="data">
+                            <div class="tab-inner">
+                                <p class="lead">I'm a data enthusiast. I use Java and R for data wrangling and utilize various API for data analysis.</p>
+                            </div>
+                        </div>
+
+                        <div role="tabpanel" class="tab-pane fade" id="frontend">
+                            <div class="tab-inner">
+                                <p class="lead">I'm also a front-end developer. I design website like this, using HTML, CSS, JS and Bootstrap.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                    <ul class="social-network social-circle">                    
+                        <li><a href="https://www.facebook.com/minhhoangtcu" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/minhhoangtcu" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://instagram.com/hminh96/" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/minhhoangtcu" class="icoGithub" title="github"><i class="fa fa-github"></i></a></li>                    
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+        
+        
+    </div>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+</body>
+</html>
