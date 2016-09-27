@@ -25,7 +25,6 @@ Because I often get stuck when taking portraits and since I am making an applica
 ### Why current apps are not working?
 Let's inspect both the content and the GUI of some of the most popular apps currently on Apple Store.
 
-{:.center}
 #### Instagram
 
 {:.center}
@@ -33,14 +32,16 @@ Let's inspect both the content and the GUI of some of the most popular apps curr
 
 Beautiful, isn't it? No. It is not going work.
 
-* Professionals do not post their photographs here and when they do, the quality is horrible. We cannot zoom in and most of the images are rectangular (I will save the argument on why rectangular is not favourable).
+Firstly, professionals do not post their photographs here and when they do, the quality is horrible. We cannot zoom in and most of the images are rectangular (I will save the argument on why rectangular is not favourable for later).
 
-* Also, there is no way to see the camera EXIF information. When most photographers check a photo, they immedietely look for the shuttle speed, aperature, etc ([here is a professional suggesting how important EXIF is in his series](https://www.youtube.com/playlist?list=PL5D68881416D27814)). Instagram does not offer this feature.
+Also, there is no way to see the camera EXIF information. When most photographers check a photo, they immedietely look for the shuttle speed, aperature, etc ([here is a professional suggesting how important EXIF is in his series](https://www.youtube.com/playlist?list=PL5D68881416D27814)). Instagram does not offer this feature.
 
-* Exploring on instagram is a no no. You can try and search for the tag "portrait", the results are just teenagers taking selfies. Even if we use instagram's API to filter out the result, the two above problems still exist.
+Exploring on instagram is a no no. You can try and search for the tag "portrait", the results are just teenagers taking selfies. Even if we use instagram's API to filter out the result, the two above problems still exist.
 
-{:.center}
 #### Flickr
+Flickr faces problems similarly to Instagram. Although more professional post their photographs on here and we can actually see the EXIF information. It is not easy to access the EXIF info, we have to navigate through another screen to read more information. I want to design an application that displays the photo with the EXIF information.
+
+Also, Flickr does not really offer an option for photographers to discover images. There is a feature that lists all trending tags. But, I do not want trending stuff, I just want to look for a specific set of stuff. In this case, we are trying to find only portraits.
 
 {:.center}
 #### 500px

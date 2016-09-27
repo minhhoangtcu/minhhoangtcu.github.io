@@ -5,8 +5,8 @@
     <description>Personal Blog</description>
     <link>http://minhhoangtcu.github.io//</link>
     <atom:link href="http://minhhoangtcu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 14:32:45 -0500</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 14:32:45 -0500</lastBuildDate>
+    <pubDate>Tue, 27 Sep 2016 14:44:19 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 14:44:19 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -37,25 +37,22 @@
 &lt;h3 id=&quot;why-current-apps-are-not-working&quot;&gt;Why current apps are not working?&lt;/h3&gt;
 &lt;p&gt;Let’s inspect both the content and the GUI of some of the most popular apps currently on Apple Store.&lt;/p&gt;
 
-&lt;h4 class=&quot;center&quot; id=&quot;instagram&quot;&gt;Instagram&lt;/h4&gt;
+&lt;h4 id=&quot;instagram&quot;&gt;Instagram&lt;/h4&gt;
 
 &lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/inspire/screen-instagram.png&quot; alt=&quot;Instagram Screenshoot of beautiful images&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Beautiful, isn’t it? No. It is not going work.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Professionals do not post their photographs here and when they do, the quality is horrible. We cannot zoom in and most of the images are rectangular (I will save the argument on why rectangular is not favourable).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Also, there is no way to see the camera EXIF information. When most photographers check a photo, they immedietely look for the shuttle speed, aperature, etc (&lt;a href=&quot;https://www.youtube.com/playlist?list=PL5D68881416D27814&quot;&gt;here is a professional suggesting how important EXIF is in his series&lt;/a&gt;). Instagram does not offer this feature.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Exploring on instagram is a no no. You can try and search for the tag “portrait”, the results are just teenagers taking selfies. Even if we use instagram’s API to filter out the result, the two above problems still exist.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Firstly, professionals do not post their photographs here and when they do, the quality is horrible. We cannot zoom in and most of the images are rectangular (I will save the argument on why rectangular is not favourable for later).&lt;/p&gt;
 
-&lt;h4 class=&quot;center&quot; id=&quot;flickr&quot;&gt;Flickr&lt;/h4&gt;
+&lt;p&gt;Also, there is no way to see the camera EXIF information. When most photographers check a photo, they immedietely look for the shuttle speed, aperature, etc (&lt;a href=&quot;https://www.youtube.com/playlist?list=PL5D68881416D27814&quot;&gt;here is a professional suggesting how important EXIF is in his series&lt;/a&gt;). Instagram does not offer this feature.&lt;/p&gt;
+
+&lt;p&gt;Exploring on instagram is a no no. You can try and search for the tag “portrait”, the results are just teenagers taking selfies. Even if we use instagram’s API to filter out the result, the two above problems still exist.&lt;/p&gt;
+
+&lt;h4 id=&quot;flickr&quot;&gt;Flickr&lt;/h4&gt;
+&lt;p&gt;Flickr faces problems similarly to Instagram. Although more professional post their photographs on here and we can actually see the EXIF information. It is not easy to access the EXIF info, we have to navigate through another screen to read more information. I want to design an application that displays the photo with the EXIF information.&lt;/p&gt;
+
+&lt;p&gt;Also, Flickr does not really offer an option for photographers to discover images. There is a feature that lists all trending tags. But, I do not want trending stuff, I just want to look for a specific set of stuff. In this case, we are trying to find only portraits.&lt;/p&gt;
 
 &lt;h4 class=&quot;center&quot; id=&quot;px&quot;&gt;500px&lt;/h4&gt;
 
