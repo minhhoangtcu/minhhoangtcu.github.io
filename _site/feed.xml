@@ -5,8 +5,8 @@
     <description>Personal Blog</description>
     <link>http://minhhoangtcu.github.io//</link>
     <atom:link href="http://minhhoangtcu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 01:36:38 -0500</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 01:36:38 -0500</lastBuildDate>
+    <pubDate>Tue, 27 Sep 2016 14:32:45 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 14:32:45 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -14,6 +14,22 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://github.com/minhhoangtcu/Inspire&quot;&gt;Link to code&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I love photography. But, I do not enjoy it so much when I am out ideas on the field. Telling the model to stand still for me to think and walk around could become really awkward. Somtimes, the “feeling” just does not flow into us. This project serves to solve that issue.&lt;/p&gt;
+
+&lt;h1 id=&quot;table-of-content&quot;&gt;Table of Content&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#logic-overview&quot;&gt;Logic Overview&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#getting-the-images&quot;&gt;Getting the images&lt;/a&gt;
+        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#why-current-apps-are-not-working&quot;&gt;Why current apps are not working?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#suggesting-songs&quot;&gt;Suggesting songs&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;logic-overview&quot;&gt;Logic Overview&lt;/h1&gt;
 
 &lt;h2 id=&quot;getting-the-images&quot;&gt;Getting the images&lt;/h2&gt;
 &lt;p&gt;Because I often get stuck when taking portraits and since I am making an application for photographers with similar issue, &lt;strong&gt;the app will request and collect only different kinds of portraits.&lt;/strong&gt; But, what are the problems with apps that are already on the Apple Store? Why can’t I just use them and stop reinventing the wheel?&lt;/p&gt;
@@ -39,7 +55,11 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;(to be cont)&lt;/p&gt;
+&lt;h4 class=&quot;center&quot; id=&quot;flickr&quot;&gt;Flickr&lt;/h4&gt;
+
+&lt;h4 class=&quot;center&quot; id=&quot;px&quot;&gt;500px&lt;/h4&gt;
+
+&lt;h4 class=&quot;center&quot; id=&quot;eyeem&quot;&gt;EyeEm&lt;/h4&gt;
 
 &lt;h2 id=&quot;suggesting-songs&quot;&gt;Suggesting songs&lt;/h2&gt;
 

@@ -10,6 +10,15 @@ keywords: "iOS, developer diary, inspire, image, song"
 
 I love photography. But, I do not enjoy it so much when I am out ideas on the field. Telling the model to stand still for me to think and walk around could become really awkward. Somtimes, the "feeling" just does not flow into us. This project serves to solve that issue.
 
+# Table of Content
+1. [Logic Overview](#logic-overview)
+  * [Getting the images](#getting-the-images)
+    1. [Why current apps are not working?](#why-current-apps-are-not-working)
+  * [Suggesting songs](#suggesting-songs)
+
+
+# Logic Overview
+
 ## Getting the images
 Because I often get stuck when taking portraits and since I am making an application for photographers with similar issue, **the app will request and collect only different kinds of portraits.** But, what are the problems with apps that are already on the Apple Store? Why can't I just use them and stop reinventing the wheel?
 
@@ -30,7 +39,14 @@ Beautiful, isn't it? No. It is not going work.
 
 * Exploring on instagram is a no no. You can try and search for the tag "portrait", the results are just teenagers taking selfies. Even if we use instagram's API to filter out the result, the two above problems still exist.
 
-(to be cont)
+{:.center}
+#### Flickr
+
+{:.center}
+#### 500px
+
+{:.center}
+#### EyeEm
 
 ## Suggesting songs
 
