@@ -43,13 +43,31 @@ Flickr faces problems similarly to Instagram. Although more professional post th
 
 Also, Flickr does not really offer an option for photographers to discover images. There is a feature that lists all trending tags. But, I do not want trending stuff, I just want to look for a specific set of stuff. In this case, we are trying to find only portraits.
 
-{:.center}
+Since Flickr still has some decent photographs and EXIF information, it is still a good source for inspiration. In fact, our app will ultilize Flickr's API and collect photos from here. But, we will have to add some filter to get a good image.
+
 #### 500px
 
 {:.center}
+![500px Screenshoot of beautiful categories][screen-500px]
+
+500px is my favourite. Why? It actually categorizes the pictures! Also, the quality of the photographs is absolutely stunning. Unfortunately, I cannot access the EXIF data without going to another screen. 500px is close, but, for our taste, it is not close enough. In our app, we will have these categories and also use their API to get the pictures.
+
 #### EyeEm
+
+EyeEm is actually a little bit special. It focuses on suggesting users to explore specific photographers or albums based on our interests. So, machine learning is definately heavily involved in there. Since this is the main feature of EyeEm, it does not the easily accessible categories like what 500px does. However, EyeEm has a very interesting way to show image:
+
+{:.center}
+![EyeEm Screenshoot of tags with photo][screen-eyeem]
+
+EyeEm displays a picture's tags below the picture. This is semi helpful because sometimes we can see the information of the camera. For example, in the image above, we instantly know that it is captured with a Sony A7 and at 55mm. But, we do not really want to see all those information. Firstly, it is distracting. There are too many taggs. If I were to design the application (showing tags only), I would show only a few of them. And, I will never show the obvious tags. "Girl", "cute", and "portrait" are not neccessary. Without reading the tags, I am very sure that I am seeing a girl already. Anyway, displaying helpful information is what our app is going for.
 
 ## Suggesting songs
 
-[screen-instagram]: ../../image/inspire/screen-instagram.png
+[screen-instagram]: ../../image/inspire/screen-instagram.png 
+{: width="450px"}
+
+[screen-500px]: ../../image/inspire/screen-500px.png 
+{: width="450px"}
+
+[screen-eyeem]: ../../image/inspire/screen-eyeem.png 
 {: width="450px"}
