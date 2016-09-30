@@ -20,7 +20,7 @@ I love photography. But, I do not enjoy it so much when I am out ideas on the fi
 # Logic Overview
 
 ## Getting the images
-Because I often get stuck when taking portraits and since I am making an application for photographers with similar issue, **the app will request and collect only different kinds of portraits.** But, what are the problems with apps that are already on the Apple Store? Why can't I just use them and stop reinventing the wheel?
+Because I often run out of ideas for poses or framing while taking portraits and since the app is for photographers with similar issue, **it will request and collect only different kinds of portraits.** But, what are the problems with the apps that are already out there? Why can't I just use them instead?
 
 ### Why current apps are not working?
 Let's inspect both the content and the GUI of some of the most popular apps currently on Apple Store.
@@ -30,18 +30,22 @@ Let's inspect both the content and the GUI of some of the most popular apps curr
 {:.center}
 ![Instagram Screenshoot of beautiful images][screen-instagram]
 
-Beautiful, isn't it? No. It is not going work.
+This looks fine, right?
 
-Firstly, professionals do not post their photographs here and when they do, the quality is horrible. We cannot zoom in and most of the images are rectangular (I will save the argument on why rectangular is not favourable for later).
+Well, not really. Here is why:
 
-Also, there is no way to see the camera EXIF information. When most photographers check a photo, they immedietely look for the shuttle speed, aperature, etc ([here is a professional suggesting how important EXIF is in his series](https://www.youtube.com/playlist?list=PL5D68881416D27814)). Instagram does not offer this feature.
+Firstly, professionals do not post their photographs on Instagram and when they do, the quality is horrible. We cannot zoom in and most of the images are in 1:1 ratio (I will save the argument on why rectangular is not favourable for later).
 
-Exploring on instagram is a no no. You can try and search for the tag "portrait", the results are just teenagers taking selfies. Even if we use instagram's API to filter out the result, the two above problems still exist.
+Also, there is no way to see the camera EXIF information. When most photographers check a photo, they immedietely look for the shuttle speed, aperature, etc ([here is a professional suggesting how important EXIF is in his series](https://www.youtube.com/playlist?list=PL5D68881416D27814)). Instagram does not have such feature.
+
+How about exploring new images on Instagram? You can try and search for the tag "portrait", the results are just teenagers taking selfies. Even if we use instagram's API to filter out the result, the two above problems still exist.
+
+After all, Instagram is not really intended for photographers anyway. So, it quite unfair to disect the app, but, analyzing a bad example is a good way to set expectations for the app.
 
 #### Flickr
-Flickr faces problems similarly to Instagram. Although more professional post their photographs on here and we can actually see the EXIF information. It is not easy to access the EXIF info, we have to navigate through another screen to read more information. I want to design an application that displays the photo with the EXIF information.
+Although more professional post their photographs on here and we can actually see the EXIF information. It is not easy to access the EXIF info, we have to navigate through another screen to read more information. I want to design an application that displays the photo with the EXIF information.
 
-Also, Flickr does not really offer an option for photographers to discover images. There is a feature that lists all trending tags. But, I do not want trending stuff, I just want to look for a specific set of stuff. In this case, we are trying to find only portraits.
+Flickr faces problems similarly to Instagram. It does not really offer an option for photographers to discover images. There is a feature that lists all trending tags. But, I do not want trending stuff, I just want to look for a specific set of stuff. In this case, we are trying to find only portraits.
 
 Since Flickr still has some decent photographs and EXIF information, it is still a good source for inspiration. In fact, our app will ultilize Flickr's API and collect photos from here. But, we will have to add some filter to get a good image.
 
@@ -50,16 +54,20 @@ Since Flickr still has some decent photographs and EXIF information, it is still
 {:.center}
 ![500px Screenshoot of beautiful categories][screen-500px]
 
-500px is my favourite. Why? It actually categorizes the pictures! Also, the quality of the photographs is absolutely stunning. Unfortunately, I cannot access the EXIF data without going to another screen. 500px is close, but, for our taste, it is not close enough. In our app, we will have these categories and also use their API to get the pictures.
+500px is my favourite. 
+
+Why? 
+
+It actually categorizes the pictures! Also, the quality of the photographs is absolutely stunning. Unfortunately, similarly to Flickr, I cannot access the EXIF data without going to another screen. 500px is close, but, for our taste, it is not close enough. In our app, we will have these categories and also use their API to get the pictures.
 
 #### EyeEm
 
-EyeEm is actually a little bit special. It focuses on suggesting users to explore specific photographers or albums based on our interests. So, machine learning is definately heavily involved in there. Since this is the main feature of EyeEm, it does not the easily accessible categories like what 500px does. However, EyeEm has a very interesting way to show image:
+EyeEm is actually a little bit special. It main feature is suggesting users to explore specific photographers or albums based on our interests. So, machine learning is definately heavily involved in there. Since this is the main feature of EyeEm, it does not categories photographs like what 500px does. However, EyeEm has a very interesting way to show image:
 
 {:.center}
 ![EyeEm Screenshoot of tags with photo][screen-eyeem]
 
-EyeEm displays a picture's tags below the picture. This is semi helpful because sometimes we can see the information of the camera. For example, in the image above, we instantly know that it is captured with a Sony A7 and at 55mm. But, we do not really want to see all those information. Firstly, it is distracting. There are too many taggs. If I were to design the application (showing tags only), I would show only a few of them. And, I will never show the obvious tags. "Girl", "cute", and "portrait" are not neccessary. Without reading the tags, I am very sure that I am seeing a girl already. Anyway, displaying helpful information is what our app is going for.
+From the screenshoot above, we can see the picture's tags below the photograph. This is semi helpful because sometimes we can see the information of the camera. For example, we instantly know that it is captured with a Sony A7 and at 55mm. But, we do not really want to see all those information. Firstly, it is distracting. There are too many taggs. If I were to redesign the application, I would show only a few of them. And, I will never show the obvious tags. "Girl", "cute", and "portrait" are not neccessary. Without reading the tags, I am pretty sure that there is a girl in the picture. Anyway, displaying helpful information is what our app is going for.
 
 ## Suggesting songs
 
