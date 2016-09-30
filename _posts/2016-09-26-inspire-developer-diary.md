@@ -12,18 +12,18 @@ I love photography. But, I do not enjoy it so much when I am out ideas on the fi
 
 # Table of Content
 1. [Logic Overview](#logic-overview)
+  * [Why current apps are not working?](#why-current-apps-are-not-working)
   * [Getting the images](#getting-the-images)
-    1. [Why current apps are not working?](#why-current-apps-are-not-working)
   * [Suggesting songs](#suggesting-songs)
+2. [Deliverable Diary](#deliverable-diary)
+  * [First week: "Fake It Till You Make It"](#first-week-fake-it-till-you-make-it")
 
 
 # Logic Overview
 
-## Getting the images
-Because I often run out of ideas for poses or framing while taking portraits and since the app is for photographers with similar issue, **it will request and collect only different kinds of portraits.** But, what are the problems with the apps that are already out there? Why can't I just use them instead?
 
-### Why current apps are not working?
-Let's inspect both the content and the GUI of some of the most popular apps currently on Apple Store.
+## Why current apps are not working?
+Because I often run out of ideas for poses or framing while taking portraits and since the app is for photographers with similar issue, **it will request and collect only different kinds of portraits.** But, what are the problems with the apps that are already out there? Why can't I just use them instead? Let's inspect both the content and the GUI of some of the most popular apps currently on Apple Store.
 
 #### Instagram
 
@@ -69,7 +69,65 @@ EyeEm is actually a little bit special. It main feature is suggesting users to e
 
 From the screenshoot above, we can see the picture's tags below the photograph. This is semi helpful because sometimes we can see the information of the camera. For example, we instantly know that it is captured with a Sony A7 and at 55mm. But, we do not really want to see all those information. Firstly, it is distracting. There are too many taggs. If I were to redesign the application, I would show only a few of them. And, I will never show the obvious tags. "Girl", "cute", and "portrait" are not neccessary. Without reading the tags, I am pretty sure that there is a girl in the picture. Anyway, displaying helpful information is what our app is going for.
 
+
+## Getting the images
+(cont.)
+<!-- Techniques to get the images -->
+
 ## Suggesting songs
+(cont.)
+<!-- Techniques to get the songs -->
+
+
+# Deliverable Diary
+(cont.)
+<!-- Why this section exist. For self reflection. -->
+
+## First week: "Fake It Till You Make It"
+
+The first week was bad. 
+
+I trashed the entire GUI of the app.
+
+Why? Take a look for yourself:
+
+{:.center}
+![Initial GUI][screen-init-gui]
+
+So, what really happened? Let's begin from the start.
+
+### What happen?
+
+To be honest, I had not experience network programming before. So, this application was what I had not done before. After settling down with the idea, I watched several tutorials about iOS networking (mostly on [Udacity](https://www.udacity.com/course/ios-networking-with-swift--ud421)). After spending out about 6 hours cramming down the materials, I go straight to the project.
+
+The app is straight foward, sending http request and receiving a JSON package with pictures' URLs back. I had no difficult in implement the code for this part. However, it took me actually a lot of time to set up the GUI and to display the photos.
+
+I had absolutely no design in mind.
+
+
+
+
+
+(cont.)
+
+
+
+
+
+
+
+
+
+
+{:.center}
+![Initial GUI][screen-new-mainscreen]
+
+{:.center}
+![Initial GUI][screen-new-photoview]
+
+{:.center}
+![Initial GUI][screen-new-pressedinfo]
+
 
 [screen-instagram]: ../../image/inspire/screen-instagram.png 
 {: width="450px"}
@@ -78,4 +136,16 @@ From the screenshoot above, we can see the picture's tags below the photograph. 
 {: width="450px"}
 
 [screen-eyeem]: ../../image/inspire/screen-eyeem.png 
+{: width="450px"}
+
+[screen-init-gui]: ../../image/inspire/screen-first-week-init-gui.png
+{: width="450px"}
+
+[screen-new-mainscreen]: ../../image/inspire/screen-first-week-prototype-1.png
+{: width="450px"}
+
+[screen-new-photoview]: ../../image/inspire/screen-first-week-prototype-2.png
+{: width="450px"}
+
+[screen-new-pressedinfo]: ../../image/inspire/screen-first-week-prototype-3.png
 {: width="450px"}

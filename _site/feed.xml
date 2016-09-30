@@ -5,8 +5,8 @@
     <description>Personal Blog</description>
     <link>http://minhhoangtcu.github.io//</link>
     <atom:link href="http://minhhoangtcu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Sep 2016 02:33:50 -0500</pubDate>
-    <lastBuildDate>Fri, 30 Sep 2016 02:33:50 -0500</lastBuildDate>
+    <pubDate>Fri, 30 Sep 2016 03:12:29 -0500</pubDate>
+    <lastBuildDate>Fri, 30 Sep 2016 03:12:29 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -19,23 +19,22 @@
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#logic-overview&quot;&gt;Logic Overview&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#getting-the-images&quot;&gt;Getting the images&lt;/a&gt;
-        &lt;ol&gt;
-          &lt;li&gt;&lt;a href=&quot;#why-current-apps-are-not-working&quot;&gt;Why current apps are not working?&lt;/a&gt;&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#why-current-apps-are-not-working&quot;&gt;Why current apps are not working?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#getting-the-images&quot;&gt;Getting the images&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#suggesting-songs&quot;&gt;Suggesting songs&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#deliverable-diary&quot;&gt;Deliverable Diary&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#first-week-fake-it-till-you-make-it&amp;quot;&quot;&gt;First week: “Fake It Till You Make It”&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h1 id=&quot;logic-overview&quot;&gt;Logic Overview&lt;/h1&gt;
 
-&lt;h2 id=&quot;getting-the-images&quot;&gt;Getting the images&lt;/h2&gt;
-&lt;p&gt;Because I often run out of ideas for poses or framing while taking portraits and since the app is for photographers with similar issue, &lt;strong&gt;it will request and collect only different kinds of portraits.&lt;/strong&gt; But, what are the problems with the apps that are already out there? Why can’t I just use them instead?&lt;/p&gt;
-
-&lt;h3 id=&quot;why-current-apps-are-not-working&quot;&gt;Why current apps are not working?&lt;/h3&gt;
-&lt;p&gt;Let’s inspect both the content and the GUI of some of the most popular apps currently on Apple Store.&lt;/p&gt;
+&lt;h2 id=&quot;why-current-apps-are-not-working&quot;&gt;Why current apps are not working?&lt;/h2&gt;
+&lt;p&gt;Because I often run out of ideas for poses or framing while taking portraits and since the app is for photographers with similar issue, &lt;strong&gt;it will request and collect only different kinds of portraits.&lt;/strong&gt; But, what are the problems with the apps that are already out there? Why can’t I just use them instead? Let’s inspect both the content and the GUI of some of the most popular apps currently on Apple Store.&lt;/p&gt;
 
 &lt;h4 id=&quot;instagram&quot;&gt;Instagram&lt;/h4&gt;
 
@@ -78,7 +77,45 @@
 
 &lt;p&gt;From the screenshoot above, we can see the picture’s tags below the photograph. This is semi helpful because sometimes we can see the information of the camera. For example, we instantly know that it is captured with a Sony A7 and at 55mm. But, we do not really want to see all those information. Firstly, it is distracting. There are too many taggs. If I were to redesign the application, I would show only a few of them. And, I will never show the obvious tags. “Girl”, “cute”, and “portrait” are not neccessary. Without reading the tags, I am pretty sure that there is a girl in the picture. Anyway, displaying helpful information is what our app is going for.&lt;/p&gt;
 
+&lt;h2 id=&quot;getting-the-images&quot;&gt;Getting the images&lt;/h2&gt;
+&lt;p&gt;(cont.)
+&lt;!-- Techniques to get the images --&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;suggesting-songs&quot;&gt;Suggesting songs&lt;/h2&gt;
+&lt;p&gt;(cont.)
+&lt;!-- Techniques to get the songs --&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;deliverable-diary&quot;&gt;Deliverable Diary&lt;/h1&gt;
+&lt;p&gt;(cont.)
+&lt;!-- Why this section exist. For self reflection. --&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;first-week-fake-it-till-you-make-it&quot;&gt;First week: “Fake It Till You Make It”&lt;/h2&gt;
+
+&lt;p&gt;The first week was bad.&lt;/p&gt;
+
+&lt;p&gt;I trashed the entire GUI of the app.&lt;/p&gt;
+
+&lt;p&gt;Why? Take a look for yourself:&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/inspire/screen-first-week-init-gui.png&quot; alt=&quot;Initial GUI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, what really happened? Let’s begin from the start.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-happen&quot;&gt;What happen?&lt;/h3&gt;
+
+&lt;p&gt;To be honest, I had not experience network programming before. So, this application was what I had not done before. After settling down with the idea, I watched several tutorials about iOS networking (mostly on &lt;a href=&quot;https://www.udacity.com/course/ios-networking-with-swift--ud421&quot;&gt;Udacity&lt;/a&gt;). After spending out about 6 hours cramming down the materials, I go straight to the project.&lt;/p&gt;
+
+&lt;p&gt;The app is straight foward, sending http request and receiving a JSON package with pictures’ URLs back. I had no difficult in implement the code for this part. However, it took me actually a lot of time to set up the GUI and to display the photos.&lt;/p&gt;
+
+&lt;p&gt;I had absolutely no design in mind.&lt;/p&gt;
+
+&lt;p&gt;(cont.)&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/inspire/screen-first-week-prototype-1.png&quot; alt=&quot;Initial GUI&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/inspire/screen-first-week-prototype-2.png&quot; alt=&quot;Initial GUI&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/inspire/screen-first-week-prototype-3.png&quot; alt=&quot;Initial GUI&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 26 Sep 2016 00:00:00 -0500</pubDate>
