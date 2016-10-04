@@ -5,18 +5,18 @@
     <description>Personal Blog</description>
     <link>http://minhhoangtcu.github.io//</link>
     <atom:link href="http://minhhoangtcu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Oct 2016 00:06:31 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2016 00:06:31 -0500</lastBuildDate>
+    <pubDate>Tue, 04 Oct 2016 01:02:29 -0500</pubDate>
+    <lastBuildDate>Tue, 04 Oct 2016 01:02:29 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Tweets of Joy and Fury 2016</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://github.com/awernick/TweetsOfJoyAndFury2016&quot;&gt;Link to code&lt;/a&gt; 
-&lt;em&gt;This is a Github of my partner, he linked both the back end and client to it. Please note that, in this blog, I will focus on only the client part&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;This is the Github of my partner, he linked both the back end and the client into it. Please note that, in this blog, I will focus mostly on the client part&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://devpost.com/software/tweets-of-joy-and-fury-2016&quot;&gt;Link to Devpost&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Have you ever wondered what people are talking about the 2016 Presidential debates? This iOS application parses and applies sentiment analysis in real time on Tweets related to Trump and Hillary. You can actually see Tweets popping up in your local area in real time!&lt;/p&gt;
+&lt;p&gt;Have you ever wondered what people talk about the 2016 Presidential debates? This iOS application parses and applies sentiment analysis in real time on Tweets related to Trump and Hillary. You can actually see Tweets popping up in your local area in real time!&lt;/p&gt;
 
 &lt;h1 id=&quot;table-of-content&quot;&gt;Table of Content&lt;/h1&gt;
 &lt;ol&gt;
@@ -26,7 +26,7 @@
       &lt;li&gt;&lt;a href=&quot;#displaying-the-tweets&quot;&gt;Displaying the Tweets&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#implementation-details/progresses&quot;&gt;Implementation Details/Progresses&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;#implementation-details&quot;&gt;Implementation Details&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#prototyping&quot;&gt;Prototyping&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#creating-custome-info-windows&quot;&gt;Creating custom info windows&lt;/a&gt;&lt;/li&gt;
@@ -34,14 +34,15 @@
       &lt;li&gt;&lt;a href=&quot;#requesting-the-tweets&quot;&gt;Requesting the Tweets&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#demo&quot;&gt;Demo&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h1 id=&quot;logic-overview&quot;&gt;Logic Overview&lt;/h1&gt;
-&lt;p&gt;In this project, I worked together with two other lovely people. One worked on the backend and the other worked on the data analysis. Thus, I will mostly talk about my work, which is the implementation of the front-end.&lt;/p&gt;
+&lt;p&gt;In this project, I worked together with two other geniuses. One worked on the backend and the other on the data analysis. Thus, I will talk mostly about my work, which is the implementation of the front-end.&lt;/p&gt;
 
 &lt;h2 id=&quot;getting-the-tweets&quot;&gt;Getting the Tweets&lt;/h2&gt;
 
-&lt;p&gt;Firstly, we called Twitter’s API to get the Tweets. Of course, we had to pass in certain queries and parse the data in certain way. Lastly, we trained our model with Stanford’s data  apply sentiment analysis on the Tweets. For getting the result, the client would push its current location of the map along with the radius of the current zoom level to the server, which will send back data accordingly.&lt;/p&gt;
+&lt;p&gt;Firstly, we called Twitter’s API to get the Tweets. Of course, we had to pass in certain queries and parse the data in different ways. Lastly, we trained our model with Stanford’s data and apply sentiment analysis. For result, the client push its current location of the map along with the radius of the current zoom level to the server, which will send back data accordingly.&lt;/p&gt;
 
 &lt;h2 id=&quot;displaying-the-tweets&quot;&gt;Displaying the Tweets&lt;/h2&gt;
 
@@ -51,19 +52,65 @@
 
 &lt;p&gt;And, we also wanted to display live Tweets, so that the heads will pop up everytime, which would be really cool!&lt;/p&gt;
 
-&lt;h1 id=&quot;implementation-detailsprogresses&quot;&gt;Implementation Details/Progresses&lt;/h1&gt;
+&lt;h1 id=&quot;implementation-details&quot;&gt;Implementation Details&lt;/h1&gt;
 &lt;p&gt;I devide this section into multiple milestones. Each problem took considerable amout of time and had a profound impact on the project.&lt;/p&gt;
 
 &lt;h2 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h2&gt;
-&lt;p&gt;Learning from my pit fall of my last side project, this time, I need to have an usable prototype.&lt;/p&gt;
+&lt;p&gt;Learning from the pit fall of my last side project, this time, I needed to have a prototype.&lt;/p&gt;
 
-&lt;p&gt;And, I need it fast! &lt;em&gt;In the end, it took me 3 hours, which is not ok&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;And, I needed it fast! &lt;em&gt;In the end, it took me 3 hours, which is not ok&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Firstly, we discussed the purpose of the application and determined its features. Then, I began to draw some sketches and reviewed with the team. Normally, during this prototyping progress, people did not create an entire design from nothing. I highly recommend using Photoshop/Keynote to modify designs on &lt;a href=&quot;http://pttrns.com/&quot;&gt;pttrns&lt;/a&gt; and wrap the entire process with &lt;a href=&quot;https://www.invisionapp.com/&quot;&gt;inVision&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Firstly, we discussed the purpose of the application and determined its features. Then, the sketches and revisions with the whole team. Normally, during this prototyping progress, people took designs from many places and modify them accordingly. I highly recommend using Photoshop/Keynote to modify designs on &lt;a href=&quot;http://pttrns.com/&quot;&gt;pttrns&lt;/a&gt; and wrap the entire process with &lt;a href=&quot;https://www.invisionapp.com/&quot;&gt;inVision&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here are the raw designs and their modifications side by side:&lt;/p&gt;
 
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;350px&quot; src=&quot;../../image/tweets/mapscreen.jpg&quot; alt=&quot;mapscreen&quot; /&gt; &lt;img width=&quot;350px&quot; src=&quot;../../image/tweets/mapscreen-processed.png&quot; alt=&quot;mapscreen-processed&quot; /&gt;&lt;/p&gt;
+
 &lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;350px&quot; src=&quot;../../image/tweets/infoscreen.jpg&quot; alt=&quot;infoscreen&quot; /&gt; &lt;img width=&quot;350px&quot; src=&quot;../../image/tweets/infoscreen-processed.png&quot; alt=&quot;infoscreen-processed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please note that although, it took 3 hours in total, but creating the faces with Photoshop took over 70% already. Modifying the designs and creating an interactive prototype took little to no time. If you are not convinced to create a prototype for your new project, please refer to this video by Apple: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2014/223/&quot;&gt;Prototyping: Fake it til you make it&lt;/a&gt; I will really change your mind.&lt;/p&gt;
+
+&lt;p&gt;Also, I left out the part when I ran around and asked people for their experience in using the app. That was important too, the final design you saw above was not my first attempt. It had gone through many iterations with feedback. Since, this was my first time doing this, I will save the talk for the next blog, when I have more experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-custom-info-windows&quot;&gt;Creating custom info windows&lt;/h2&gt;
+&lt;p&gt;This was very simple, the tutorials for it were scarce and mostly in Object-C. You can look through my code, everything should be inside the folder named &lt;em&gt;InfoWindow&lt;/em&gt; and the initialization will be inside class &lt;em&gt;MarkerCreator&lt;/em&gt;. Basically, you are going to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a xib&lt;/li&gt;
+  &lt;li&gt;Create an extension to easily initialize the xib as a View&lt;/li&gt;
+  &lt;li&gt;Init it and place into appropriate place&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some nice materials that I went through:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Question on StackOverflow: &lt;a href=&quot;http://stackoverflow.com/questions/16746765/custom-info-window-for-google-maps&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Init from XIB: &lt;a href=&quot;http://stackoverflow.com/questions/25513271/how-to-initialise-a-uiview-class-with-a-xib-file-in-swift-ios&quot;&gt;Link&lt;/a&gt;
+)&lt;/li&gt;
+  &lt;li&gt;Custom InfoWindows in Google Maps SDK for iOS: &lt;a href=&quot;https://www.youtube.com/watch?v=ILiBXYscsyY&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;displaying-all-the-windows&quot;&gt;Displaying all the windows&lt;/h2&gt;
+&lt;p&gt;By far this was the hardest challenge for the entire project. Not only Google Maps SDK did not support the feature, but there was also almost no material on the subject. You can take a look at my &lt;em&gt;MarkerCreator&lt;/em&gt; class for the code, but here are the general ideas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google Maps SDK does not support displaying all the info windows (they do on Android), but they can display multiple markers on the map. We need to convert the info windows into an image.&lt;/li&gt;
+  &lt;li&gt;Change the image of the marker to our newly info window images.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;requesting-the-tweets&quot;&gt;Requesting the Tweets&lt;/h2&gt;
+&lt;p&gt;Whenever the user pan or zoom in with the map, we have to send the location at the center of the map along with its radius (pan level) to the server. The server will then send back JSON objects about the tweet. Also, we do not want to send the locations too often, we need only sending a new request once every 5 seconds.&lt;/p&gt;
+
+&lt;p&gt;In our final project, we did not have the time to dispatch each received tweet asynchronously to display them slowly. Although, the program could display ten tweets each time, that still counted as semi-responsive, right? Lastly, for networking, I used Alamofire and swiftJSON.&lt;/p&gt;
+
+&lt;h1 id=&quot;demo&quot;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;Here are some screen shoots of our final project.&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/tweets/about-final.png&quot; alt=&quot;about-final&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/tweets/map-final.png&quot; alt=&quot;map-final&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;450px&quot; src=&quot;../../image/tweets/info-final.png&quot; alt=&quot;info-final&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 03 Oct 2016 00:00:00 -0500</pubDate>
