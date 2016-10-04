@@ -6,12 +6,13 @@ description: "A diary keeping track of my development process with Inspire"
 keywords: "iOS, developer diary, inspire, image, song"
 ---
 
-[Link to code](https://github.com/awernick/TweetsOfJoyAndFury2016) 
+Have you ever wondered what people talk about the 2016 Presidential debates? This iOS application parses and applies sentiment analysis in real time on Tweets related to Trump and Hillary. You can actually see Tweets popping up in your local area in real time!
+
+[Link to code](https://github.com/awernick/TweetsOfJoyAndFury2016)
+
 *This is the Github of my partner, he linked both the back end and the client into it. Please note that, in this blog, I will focus mostly on the client part*
 
 [Link to Devpost](http://devpost.com/software/tweets-of-joy-and-fury-2016)
-
-Have you ever wondered what people talk about the 2016 Presidential debates? This iOS application parses and applies sentiment analysis in real time on Tweets related to Trump and Hillary. You can actually see Tweets popping up in your local area in real time!
 
 # Table of Content
 1. [Logic Overview](#logic-overview)

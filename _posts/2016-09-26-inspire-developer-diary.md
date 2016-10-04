@@ -6,9 +6,9 @@ description: "A diary keeping track of my development process with Inspire"
 keywords: "iOS, developer diary, inspire, image, song"
 ---
 
-[Link to code](https://github.com/minhhoangtcu/Inspire)
-
 I love photography. But, I do not enjoy it so much when I am out ideas on the field. Telling the model to stand still for me to think and walk around could become really awkward. Somtimes, the "feeling" just does not flow into us. This project serves to solve that issue.
+
+[Link to code](https://github.com/minhhoangtcu/Inspire)
 
 # Table of Content
 1. [Logic Overview](#logic-overview)
