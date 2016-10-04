@@ -5,18 +5,19 @@
     <description>Personal Blog</description>
     <link>http://minhhoangtcu.github.io//</link>
     <atom:link href="http://minhhoangtcu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Oct 2016 01:02:29 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2016 01:02:29 -0500</lastBuildDate>
+    <pubDate>Tue, 04 Oct 2016 01:12:53 -0500</pubDate>
+    <lastBuildDate>Tue, 04 Oct 2016 01:12:53 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Tweets of Joy and Fury 2016</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/awernick/TweetsOfJoyAndFury2016&quot;&gt;Link to code&lt;/a&gt; 
-&lt;em&gt;This is the Github of my partner, he linked both the back end and the client into it. Please note that, in this blog, I will focus mostly on the client part&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Have you ever wondered what people talk about the 2016 Presidential debates? This iOS application parses and applies sentiment analysis in real time on Tweets related to Trump and Hillary. You can actually see Tweets popping up in your local area in real time!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/awernick/TweetsOfJoyAndFury2016&quot;&gt;Link to code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is the Github of my partner, he linked both the back end and the client into it. Please note that, in this blog, I will focus mostly on the client part&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://devpost.com/software/tweets-of-joy-and-fury-2016&quot;&gt;Link to Devpost&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Have you ever wondered what people talk about the 2016 Presidential debates? This iOS application parses and applies sentiment analysis in real time on Tweets related to Trump and Hillary. You can actually see Tweets popping up in your local area in real time!&lt;/p&gt;
 
 &lt;h1 id=&quot;table-of-content&quot;&gt;Table of Content&lt;/h1&gt;
 &lt;ol&gt;
@@ -122,9 +123,9 @@
     
       <item>
         <title>Developer Diary - Inspire</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/minhhoangtcu/Inspire&quot;&gt;Link to code&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;I love photography. But, I do not enjoy it so much when I am out ideas on the field. Telling the model to stand still for me to think and walk around could become really awkward. Somtimes, the “feeling” just does not flow into us. This project serves to solve that issue.&lt;/p&gt;
 
-&lt;p&gt;I love photography. But, I do not enjoy it so much when I am out ideas on the field. Telling the model to stand still for me to think and walk around could become really awkward. Somtimes, the “feeling” just does not flow into us. This project serves to solve that issue.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/minhhoangtcu/Inspire&quot;&gt;Link to code&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;table-of-content&quot;&gt;Table of Content&lt;/h1&gt;
 &lt;ol&gt;
