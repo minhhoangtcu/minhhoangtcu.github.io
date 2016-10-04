@@ -5,9 +5,20 @@
     <description>Personal Blog</description>
     <link>http://minhhoangtcu.github.io//</link>
     <atom:link href="http://minhhoangtcu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Sep 2016 03:12:29 -0500</pubDate>
-    <lastBuildDate>Fri, 30 Sep 2016 03:12:29 -0500</lastBuildDate>
+    <pubDate>Mon, 03 Oct 2016 21:55:18 -0500</pubDate>
+    <lastBuildDate>Mon, 03 Oct 2016 21:55:18 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Tweets Of Joy And Fury 2016</title>
+        <description>
+</description>
+        <pubDate>Mon, 03 Oct 2016 00:00:00 -0500</pubDate>
+        <link>http://minhhoangtcu.github.io//2016/tweets-of-joy-and-fury-2016/</link>
+        <guid isPermaLink="true">http://minhhoangtcu.github.io//2016/tweets-of-joy-and-fury-2016/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Developer Diary - Inspire</title>
