@@ -2,8 +2,8 @@
 layout: post
 title: "Tweets of Joy and Fury 2016"
 comments: true
-description: "A diary keeping track of my development process with Inspire"
-keywords: "iOS, developer diary, inspire, image, song"
+description: "How I spent my 24 hours trying to populate a map with little Trumps and Hillaries"
+keywords: "iOS, developer diary, trump, hillary, map, google maps, sdk, streaming, backend, python, machine learning"
 ---
 
 Have you ever wondered what people talk about the 2016 Presidential debates? This iOS application parses and applies sentiment analysis in real time on Tweets related to Trump and Hillary. You can actually see Tweets popping up in your local area in real time!
