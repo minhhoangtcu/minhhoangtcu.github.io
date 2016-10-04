@@ -5,8 +5,8 @@
     <description>Personal Blog</description>
     <link>http://minhhoangtcu.github.io//</link>
     <atom:link href="http://minhhoangtcu.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Oct 2016 01:34:30 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2016 01:34:30 -0500</lastBuildDate>
+    <pubDate>Tue, 04 Oct 2016 10:55:27 -0500</pubDate>
+    <lastBuildDate>Tue, 04 Oct 2016 10:55:27 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/awernick/TweetsOfJoyAndFury2016&quot;&gt;Link to code&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This is the Github of my partner, he linked both the back end and the client into it. Please note that, in this blog, I will focus mostly on the client part&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is the Github of my partner, he linked both the back-end and the client into it.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://devpost.com/software/tweets-of-joy-and-fury-2016&quot;&gt;Link to Devpost&lt;/a&gt;&lt;/p&gt;
 
@@ -43,25 +43,25 @@
 
 &lt;h2 id=&quot;getting-the-tweets&quot;&gt;Getting the Tweets&lt;/h2&gt;
 
-&lt;p&gt;Firstly, we called Twitter’s API to get the Tweets. Of course, we had to pass in certain queries and parse the data in different ways. Lastly, we trained our model with Stanford’s data and apply sentiment analysis. For result, the client push its current location of the map along with the radius of the current zoom level to the server, which will send back data accordingly.&lt;/p&gt;
+&lt;p&gt;Firstly, we called Twitter’s API to get the Tweets. Of course, we had to pass in certain queries and parse the data in different ways. Lastly, we trained our model with Stanford’s data and applied sentiment analysis on it. To request the result, the client pushed its current location along with the radius of the current zoom level to the server, which will send back local Tweets accordingly.&lt;/p&gt;
 
 &lt;h2 id=&quot;displaying-the-tweets&quot;&gt;Displaying the Tweets&lt;/h2&gt;
 
-&lt;p&gt;We liked the idea of having Trump’s faces all other the map. Thus, for every negative Tweet about him, there would be an angry Trump on the map. The same idea applies to display happy Trump, sad Hillary, and happy Hillary. So, here they are, feast your eyes:&lt;/p&gt;
+&lt;p&gt;We liked the idea of having Trump’s faces all other the map. Thus, for every negative Tweet, there would be an angry Trump on the map. The same idea applied to display happy Trump, sad Hillary, and happy Hillary. So, here they are, feast your eyes:&lt;/p&gt;
 
 &lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;100px&quot; src=&quot;../../image/tweets/clinton-happy.png&quot; alt=&quot;Clinton happy&quot; /&gt; &lt;img width=&quot;100px&quot; src=&quot;../../image/tweets/clinton-sad.png&quot; alt=&quot;clinton-sad&quot; /&gt; &lt;img width=&quot;100px&quot; src=&quot;../../image/tweets/trump-angry.png&quot; alt=&quot;trump-angry&quot; /&gt; &lt;img width=&quot;100px&quot; src=&quot;../../image/tweets/trump-proud.png&quot; alt=&quot;trump-proud&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And, we also wanted to display live Tweets, so that the heads will pop up everytime, which would be really cool!&lt;/p&gt;
 
 &lt;h1 id=&quot;implementation-details&quot;&gt;Implementation Details&lt;/h1&gt;
-&lt;p&gt;I devide this section into multiple milestones. Each problem took considerable amout of time and had a profound impact on the project.&lt;/p&gt;
+&lt;p&gt;This section is divided into multiple milestones. Each problem took considerable amout of time and had a profound impact on the project.&lt;/p&gt;
 
 &lt;h2 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h2&gt;
 &lt;p&gt;Learning from the pit fall of my last side project, this time, I needed to have a prototype.&lt;/p&gt;
 
 &lt;p&gt;And, I needed it fast! &lt;em&gt;In the end, it took me 3 hours, which is not ok&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Firstly, we discussed the purpose of the application and determined its features. Then, the sketches and revisions with the whole team. Normally, during this prototyping progress, people took designs from many places and modify them accordingly. I highly recommend using Photoshop/Keynote to modify designs on &lt;a href=&quot;http://pttrns.com/&quot;&gt;pttrns&lt;/a&gt; and wrap the entire process with &lt;a href=&quot;https://www.invisionapp.com/&quot;&gt;inVision&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Firstly, we discussed the purpose of the application and determined its features. Then, we drew some sketches and revised them continuously. Normally, during this prototyping process, people took designs from many places and modify them accordingly. I highly recommend using Photoshop/Keynote to modify designs on &lt;a href=&quot;http://pttrns.com/&quot;&gt;pttrns&lt;/a&gt; and make it interactive with &lt;a href=&quot;https://www.invisionapp.com/&quot;&gt;inVision&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here are the raw designs and their modifications side by side:&lt;/p&gt;
 
@@ -69,9 +69,9 @@
 
 &lt;p class=&quot;center&quot;&gt;&lt;img width=&quot;350px&quot; src=&quot;../../image/tweets/infoscreen.jpg&quot; alt=&quot;infoscreen&quot; /&gt; &lt;img width=&quot;350px&quot; src=&quot;../../image/tweets/infoscreen-processed.png&quot; alt=&quot;infoscreen-processed&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Please note that although, it took 3 hours in total, but creating the faces with Photoshop took over 70% already. Modifying the designs and creating an interactive prototype took little to no time. If you are not convinced to create a prototype for your new project, please refer to this video by Apple: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2014/223/&quot;&gt;Prototyping: Fake it til you make it&lt;/a&gt; I will really change your mind.&lt;/p&gt;
+&lt;p&gt;Please note that although, it took 3 hours in total, creating the faces with Photoshop took over 70% already. Modifying the designs and creating an interactive prototype took little to no time. Here is a really cool video by Apple about prototyping: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2014/223/&quot;&gt;Prototyping: Fake it til you make it&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Also, I left out the part when I ran around and asked people for their experience in using the app. That was important too, the final design you saw above was not my first attempt. It had gone through many iterations with feedback. Since, this was my first time doing this, I will save the talk for the next blog, when I have more experience.&lt;/p&gt;
+&lt;p&gt;In this section, I left out the part when I ran around and asked people for their experience in using the app. That was important too, the final design you saw above was not my first attempt. It had gone through many iterations with feedback. Since, this was my first time doing this, I will save the talk for the next blog, when I have more experience.&lt;/p&gt;
 
 &lt;h2 id=&quot;creating-custom-info-windows&quot;&gt;Creating custom info windows&lt;/h2&gt;
 &lt;p&gt;This was very simple, the tutorials for it were scarce and mostly in Object-C. You can look through my code, everything should be inside the folder named &lt;em&gt;InfoWindow&lt;/em&gt; and the initialization will be inside class &lt;em&gt;MarkerCreator&lt;/em&gt;. Basically, you are going to:&lt;/p&gt;
@@ -100,9 +100,9 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;requesting-the-tweets&quot;&gt;Requesting the Tweets&lt;/h2&gt;
-&lt;p&gt;Whenever the user pan or zoom in with the map, we have to send the location at the center of the map along with its radius (pan level) to the server. The server will then send back JSON objects about the tweet. Also, we do not want to send the locations too often, we need only sending a new request once every 5 seconds.&lt;/p&gt;
+&lt;p&gt;Whenever the user pan or zoom in with the map, we had to send the location at the center of the map along with its radius (pan level) to the server. The server would then send back a JSON object about the Tweets. Also, we did not want to send the locations too often, we needed only sending a new request once every 5 seconds.&lt;/p&gt;
 
-&lt;p&gt;In our final project, we did not have the time to dispatch each received tweet asynchronously to display them slowly. Although, the program could display ten tweets each time, that still counted as semi-responsive, right? Lastly, for networking, I used Alamofire and swiftJSON.&lt;/p&gt;
+&lt;p&gt;In our final project, we did not have the time to dispatch each received tweet asynchronously to display them slowly. But, the program could display ten tweets each time, so that still counted as semi-responsive, right? Lastly, for networking, I used Alamofire and swiftJSON.&lt;/p&gt;
 
 &lt;h1 id=&quot;demo&quot;&gt;Demo&lt;/h1&gt;
 &lt;p&gt;Here are some screen shoots of our final project.&lt;/p&gt;
